@@ -4,7 +4,7 @@ This project aims to utilize deep learning techniques in combination with Arduin
 
 - **Data Preparation and Preprocessing:** I was responsible for preparing and preprocessing the data required for object detection. This involved ensuring the compatibility of the data with deep learning algorithms, such as resizing images, annotating objects, and organizing the dataset.
 
-- **Model Implementation and Evaluation:** I implemented and evaluated multiple models for object detection. This included utilizing popular pre-trained models like VGG16 and fine-tuning them for our specific task. The performance of these models was assessed using the collected data, comparing their accuracy, speed, and robustness.
+- **Model Implementation and Evaluation:** I implemented a pre-trained model for this task utilizing popular pre-trained models like VGG16
 
 - **Integration of Model Predictions with Arduino:** To enable real-time object detection, I developed ROS (Robot Operating System) nodes to seamlessly integrate the predictions of the trained models with an electronic circuit controlled by an Arduino microcontroller. This integration allowed for the detection of objects in real-world scenarios and provided instant feedback.
 
